@@ -105,8 +105,9 @@ main .personagem .imagem {
 @media (max-width: 769px) {
 
     main::after{
-        background: linear-gradient(0deg, #000000 20%, rgba(0, 0, 0, 0) 65%) no-repeat;
+        background: linear-gradient(0deg, #000000 0.5%, rgba(0, 0, 0, 0) 15%) no-repeat;
         width: 100vw;
+        top: -71%;
     }
 
     main .personagem .imagem {
@@ -119,6 +120,7 @@ main .personagem .imagem {
         top: -20%;
         max-width: 100vw;
         padding: 30px;
+        z-index: -1;
     }
 
     .conteudo .nome-personagem {
@@ -162,7 +164,7 @@ main .personagem .imagem {
 
     .botoes {
         padding: 20px;
-        top: -20px;
+        top: -90px;
     }
 
     .botoes .botao  img{
